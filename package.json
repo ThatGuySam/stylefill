@@ -1,0 +1,13 @@
+{
+  "name": "stylefill",
+  "version": "0.1.2",
+  "description": "Create your own CSS properties with JavaScript",
+  "homepage": "https://github.com/nathanford/stylefill",
+  "author": "Nathan Ford <nathan@artequalswork.com> (http://artequalswork.com)",
+  "private": true,
+  "repository": "git@github.com:nathanford/stylefill.git",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified…yet! Pull requests on nathanford/stylefill are appreciated.\" && exit 1"
+  }
+}

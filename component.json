@@ -1,0 +1,13 @@
+{
+  "name": "stylefill",
+  "repo": "nathanford/stylefill",
+  "description": "Create your own CSS properties with JavaScript",
+  "version": "0.1.2",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "main": "js/stylefill.js",
+  "scripts": [
+    "js/stylefill.js"
+  ]
+}

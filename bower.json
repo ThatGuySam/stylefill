@@ -1,0 +1,18 @@
+{
+  "name": "stylefill",
+  "version": "0.1.2",
+  "homepage": "https://github.com/nathanford/stylefill",
+  "authors": ["Nathan Ford <nathan@artequalswork.com>"],
+  "description": "Create your own CSS properties with JavaScript",
+  "main": "js/stylefill.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests",
+    "css",
+    "demo.html"
+  ]
+}
