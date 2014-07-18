@@ -99,11 +99,11 @@ var stylefill = {
 
 		while (scount-- > 0) {
 
-			var sheet = sheets[scount];
-
-			if (sheet.innerHTML) this.findRules(params, sheet.innerHTML, scount);
-			else if (sheet.href.match(document.domain)) this.loadFile(params, sheet.href, scount);
-
+			if(typeof sheets[scount] !== 'undefined') {
+				var sheet = sheets[scount];
+				if (sheet.innerHTML) this.findRules(params, sheet.innerHTML, scount);
+				else if (sheet.href.match(document.domain)) this.loadFile(params, sheet.href, scount);
+			}
 		}
 
 	},
