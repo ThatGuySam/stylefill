@@ -112,11 +112,13 @@ var stylefill = {
 		
 		var propertyCamel = property.replace(/(^|-)([a-z])/g, function (m1, m2, m3) { return m3.toUpperCase(); });
 		
-		if (('Webkit' + propertyCamel) in document.body.style 
-		 || ('Moz' + propertyCamel) in document.body.style 
-		 || ('O' + propertyCamel) in document.body.style 
-		 || property in document.body.style) return true;
-		
+		if(document.body)
+			if (('Webkit' + propertyCamel) in document.body.style 
+			 || ('Moz' + propertyCamel) in document.body.style 
+			 || ('O' + propertyCamel) in document.body.style 
+			 || property in document.body.style) return true;
+			
+			else return false;
 		else return false;
 		
 	},
