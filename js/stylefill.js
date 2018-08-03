@@ -210,3 +210,5 @@ var stylefill = {
 	}
 
 };
+
+export default stylefill
